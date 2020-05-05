@@ -212,31 +212,394 @@ var markers = [{
         url: "http://www.becherovavila.cz",
         coords: "50.2261772N, 12.8746747E"
     }
-    /* ,  
+    ,
+    {name: "Dům umění Ústí nad Labem",
+        id: 30,
+        obr: "DUUstiNadLabem.png",
+        url: "https://duul.cz/",
+        coords: "50.6622800N, 14.0350917E"
+    },
+    {name: "Galerie Špejchar Chomutov",
+        id: 31,
+        obr: "GSChomutov.png",
+        url: "https://www.chomutovskaknihovna.cz/kultura/galerie-spejchar",
+        coords: "50.4599494N, 13.4192925E"
+    },
+    {name: "Galerie a muzeum litoměřické diecéze",
+        id: 32,
+        obr: "SGVULitomerice.png",
+        url: "http://www.galerie-ltm.cz",
+        coords: "50.5339150N, 14.1301203E"
+    }
+    ,
+    {name: "Galerie města Loun",
+        id: 33,
+        obr: "GMLouny.png",
+        url: "https://www.gaml.cz",
+        coords: "50.3556214N, 13.7989464E"
+    }
+    ,
+    {name: "Galerie výtvarného umění v Mostě",
+        id: 34,
+        obr: "GVUMost.png",
+        url: "http://www.gvum.cz",
+        coords: "50.5176047N, 13.6482772E"
+    }
+    ,
+    {name: "Galerie Emila Filly Ústí nad Labem",
+        id: 35,
+        obr: "GEFUsti.png",
+        url: "https://gef.cz",
+        coords: "50.6623383N, 14.0397758E"
+    }
+    ,
+    {name: "Galerie Chodba a galerie Jídelna Česká Lípa",
+        id: 36,
+        obr: "GJCeskaLipa.png",
+        url: "https://www.muzeumcl.cz/galerie.html",
+        coords: "50.6859281N, 14.5344986E"
+    }
+    /*
+     ,
+     {name: "Městská galerie MY Jablonec nad Nisou",
+     id: 37,
+     obr: ".png",
+     url: "",
+     coords: "50.7229422N, 15.1678514E"
+     }
+     */
+    ,
+    {name: "Oblastní galerie Liberec",
+        id: 38,
+        obr: "OGLLiberec.png",
+        url: "https://www.ogl.cz",
+        coords: "50.7735458N, 15.0675358E"
+    }
+    ,
+    {name: "Galerie Prostor 228 Liberec",
+        id: 39,
+        obr: "GPLiberec.png",
+        url: "https://www.prostor228.cz",
+        coords: "50.7704125N, 15.0514497E"
+    }
+    ,
+    {name: "Galerie moderního umění Hradec Králové",
+        id: 40,
+        obr: "GMUHradecKralove.png",
+        url: "https://www.galeriehk.cz",
+        coords: "50.2099331N, 15.8342222E"
+    }
+    ,
+    {name: "Galerie výtvarného umění v Náchodě",
+        id: 41,
+        obr: "GVUNachod.png",
+        url: "http://www.gvun.cz",
+        coords: "50.4197761N, 16.1607094E"
+    }
+    ,
+    {name: "Muzea a galerie Orlických hor Rychnov nad Kněžnou",
+        id: 42,
+        obr: "MGOHRychnov.png",
+        url: "https://www.moh.cz/orlicka-galerie",
+        coords: "50.1704511N, 16.2681461E"
+    }
+    ,
+    {name: "Galerie města Trutnov",
+        id: 43,
+        obr: "GMTrutnov.png",
+        url: "https://www.gamt.cz",
+        coords: "50.5610344N, 15.9158319E"
+    }
+    ,
+    {name: "Galerie Art Chrudim",
+        id: 44,
+        obr: "GAChrudim.png",
+        url: "https://www.galerieart.cz",
+        coords: "49.9515039N, 15.7954539E"
+    }
+    ,
+    {name: "Výstavní síň Chrudim",
+        id: 45,
+        obr: "VSChrudim.png",
+        url: "http://www.vystavnisinchrudim.cz",
+        coords: "49.9505958N, 15.7921408E"
+    }
+    ,
+    {name: "Východočeská galerie v Pardubicích - Dům U Jonáše",
+        id: 46,
+        obr: "VGPardubice.png",
+        url: "http://www.vcg.cz",
+        coords: "50.0388450N, 15.7801467E"
+    }
+    ,
+    {name: "Východočeská galerie v Pardubicích - Zámek",
+        id: 47,
+        obr: "VGPardubice.png",
+        url: "http://www.vcg.cz",
+        coords: "50.0414619N, 15.7773047E"
+    }
+    ,
+    {name: "Městská galerie ve Zvonici Vysoké Mýto",
+        id: 48,
+        obr: "MGZVysokeMyto.png",
+        url: "http://www.galerie-vm.cz",
+        coords: "49.9520167N, 16.1593225E"
+    }
+    ,
+    {name: "Městská galerie Litomyšl",
+        id: 49,
+        obr: "MGLitomysl.png",
+        url: "http://www.galerie.litomysl.cz",
+        coords: "49.8705253N, 16.3114833E"
+    }
+    ,
+    {name: "Galerie Zdeněk Sklenář Litomyšl",
+        id: 50,
+        obr: "GZSklenar.png",
+        url: "https://www.zdeneksklenar.cz/galerie",
+        coords: "49.8728103N, 16.3106881E"
+    }
+    ,
+    {name: "8smička Humpolec",
+        id: 51,
+        obr: "8Humpolec.png",
+        url: "https://8smicka.com",
+        coords: "49.5438919N, 15.3545875E"
+    }
+    ,
+    {name: "Galerie výtvarného umění v Havlíčkově Brodě",
+        id: 52,
+        obr: "GVUHavlickuvBrod.png",
+        url: "https://www.galeriehb.cz",
+        coords: "49.6074258N, 15.5788614E"
+    }
+    ,
+    {name: "Oblastní galerie Vysočiny v Jihlavě",
+        id: 53,
+        obr: "OGVJihlava.png",
+        url: "http://www.ogv.cz",
+        coords: "49.3939553N, 15.5920725E"
+    }
+    ,
+    {name: "Horácká galerie Nové Město na Moravě",
+        id: 54,
+        obr: "HGNoveMesto.png",
+        url: "http://www.horackagalerie.cz",
+        coords: "49.5615717N, 16.0755397E"
+    }
+    ,
+    {name: "Moravská galerie v Brně",
+        id: 55,
+        obr: "MGBrno.png",
+        url: "http://www.moravska-galerie.cz",
+        coords: "49.1954383N, 16.6042156E"
+    }
+    ,
+    {name: "Městské muzeum a galerie Břeclav",
+        id: 56,
+        obr: "MMGBreclav.png",
+        url: "https://www.muzeumbv.cz",
+        coords: "48.7596139N, 16.8867511E"
+    }
+    ,
+    {name: "Galerie výtvarného umění v Hodoníně",
+        id: 57,
+        obr: "GVUHodonin.png",
+        url: "http://www.gvuhodonin.cz",
+        coords: "48.8556328N, 17.1244356E"
+    }
+
+    ,
+    {name: "Muzeum a galerie v Prostějově",
+        id: 58,
+        obr: "MGProstejov.png",
+        url: "http://www.muzeumpv.cz",
+        coords: "49.4720992N, 17.1118203E"
+    }
+    ,
+    {name: "Muzeum umění Olomouc",
+        id: 59,
+        obr: "MUOlomouc.png",
+        url: "http://www.muo.cz",
+        coords: "49.5962267N, 17.2562175E"
+    }
+    ,
+    {name: "Arcidiecézní muzeum Olomouc",
+        id: 60,
+        obr: "MUOlomouc.png",
+        url: "http://www.muo.cz",
+        coords: "49.5983739N, 17.2616353E"
+    }
+    ,
+    {name: "Galerie Jiřího Jílka",
+        id: 61,
+        obr: "GJJSumperk.png",
+        url: "http://www.galerie-sumperk.cz",
+        coords: "49.9641761N, 16.9795589E"
+    }
+    ,
+    {name: "Dům umění Opava",
+        id: 62,
+        obr: "OKOpava.png",
+        url: "https://oko-opava.cz/",
+        coords: "49.9404206N, 17.9036839E"
+    }
+    ,
+    {name: "Galerie výtvarného umění v Ostravě",
+        id: 63,
+        obr: "GVUOstrava.png",
+        url: "https://www.gvuo.cz",
+        coords: "49.8340264N, 18.2867908E"
+    }
+    ,
+    {name: "Arcibiskupský zámek Kroměříž",
+        id: 64,
+        obr: "AZKromeriz.png",
+        url: "https://www.zamek-kromeriz.cz/navstevni-trasy/zamecka-obrazarna/",
+        coords: "49.3002200N, 17.3932100E"
+    }
+     ,
+     {name: "Galerie Joži Uprky Uherské Hradiště",
+     id: 65,
+     obr: "GJUUherskeHradiste.png",
+     url: "http://www.jozauprka.cz",
+     coords: "49.0675544N, 17.4594022E"
+     }
+     ,
+     {name: "Krajská galerie výtvarného umění ve Zlíně",
+     id: 66,
+     obr: "KGVUZlin.png",
+     url: "https://www.galeriezlin.cz",
+     coords: "49.2248725N, 17.6589281E"
+     }
+     ,
+     {name: "Galerie Kaple Valašské Meziříčí",
+     id: 67,
+     obr: "GKValasskeMezirici.png",
+     url: "https://kaple.kzvalmez.cz/",
+     coords: "49.4714044N, 17.9686208E"
+     }
+     /* 
+    ,
      {name: "",
      id: ,
      obr: ".png",
      url: "",
      coords: ""
-     }     ,  
+     }
+     ,
      {name: "",
      id: ,
      obr: ".png",
      url: "",
      coords: ""
-     }     ,  
+     }
+     ,
      {name: "",
      id: ,
      obr: ".png",
      url: "",
      coords: ""
-     }     ,  
+     }
+     ,
      {name: "",
      id: ,
      obr: ".png",
      url: "",
      coords: ""
-     }   
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     ,
+     {name: "",
+     id: ,
+     obr: ".png",
+     url: "",
+     coords: ""
+     }
+     
      */
 ];
 // vytvoreni markeru
