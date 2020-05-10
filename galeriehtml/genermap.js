@@ -458,112 +458,252 @@ var markers = [{
         url: "https://www.zamek-kromeriz.cz/navstevni-trasy/zamecka-obrazarna/",
         coords: "49.3002200N, 17.3932100E"
     }
-     ,
-     {name: "Galerie Joži Uprky Uherské Hradiště",
-     id: 65,
-     obr: "GJUUherskeHradiste.png",
-     url: "http://www.jozauprka.cz",
-     coords: "49.0675544N, 17.4594022E"
-     }
-     ,
-     {name: "Krajská galerie výtvarného umění ve Zlíně",
-     id: 66,
-     obr: "KGVUZlin.png",
-     url: "https://www.galeriezlin.cz",
-     coords: "49.2248725N, 17.6589281E"
-     }
-     ,
-     {name: "Galerie Kaple Valašské Meziříčí",
-     id: 67,
-     obr: "GKValasskeMezirici.png",
-     url: "https://kaple.kzvalmez.cz/",
-     coords: "49.4714044N, 17.9686208E"
-     }
-     /* 
     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
+    {name: "Galerie Joži Uprky Uherské Hradiště",
+        id: 65,
+        obr: "GJUUherskeHradiste.png",
+        url: "http://www.jozauprka.cz",
+        coords: "49.0675544N, 17.4594022E"
+    }
+    ,
+    {name: "Krajská galerie výtvarného umění ve Zlíně",
+        id: 66,
+        obr: "KGVUZlin.png",
+        url: "https://www.galeriezlin.cz",
+        coords: "49.2248725N, 17.6589281E"
+    }
+    ,
+    {name: "Galerie Kaple Valašské Meziříčí",
+        id: 67,
+        obr: "GKValasskeMezirici.png",
+        url: "https://kaple.kzvalmez.cz/",
+        coords: "49.4714044N, 17.9686208E"
+    }
+    ,
+    {name: "Gallery Cyrany Heřmanův Městec",
+        id: 68,
+        obr: "GSHermanuvMestec.png",
+        url: "https://www.spokul.cz/galerie/gallery-cyrany/",
+        coords: "49.9477483N, 15.6687886E"
+    }
+    ,
+    {name: "Galerie Závodný Mikulov",
+        id: 69,
+        obr: "GalerieZavodnyMikulov.png",
+        url: "",
+        coords: "48.8082733N, 16.6368408E"
+    }
+    ,
+    {name: "Q galerie Uherský Brod",
+        id: 70,
+        obr: "QGalerieUherskyBrod.png",
+        url: "https://www.q-studio.cz/q-galerie",
+        coords: "49.0298614N, 17.6485406E"
+    }
+    ,
+    {name: "Výtvarné centrum Chagall Brušperk",
+        id: 71,
+        obr: "VCChBrusperk.png",
+        url: "http://www.chagall.cz",
+        coords: "49.6993414N, 18.2240611E"
+    }
+    ,
+    {name: "Kulturní a společenské středisko Střelnice Český Těšín",
+        id: 72,
+        obr: "StrelniceCeskyTesin.png",
+        url: "http://www.kassct.cz/category/vystavy-a-expozice/",
+        coords: "49.7430533N, 18.6280022E"
+    }
+    ,
+    {name: "Muzeum a galerie Hranice",
+        id: 73,
+        obr: "MGHranice.png",
+        url: "https://muzeum-hranice.cz/",
+        coords: "49.5500983N, 17.7347392E"
+    }
+    ,
+    {name: "Galerii ve věži v Plané",
+        id: 74,
+        obr: "GVVPlanaUMarianskychLazni.png",
+        url: "https://www.plana.cz/volny-cas/kultura-a-turistika-v-plane/galerie-ve-vezi/",
+        coords: "49.8673664N, 12.7375597E"
+    }
+    ,
+    {name: "Expozice Franta ",
+        id: 75,
+        obr: "EFTrebic.png",
+        url: "https://www.expozice-franta.cz/",
+        coords: "49.2155378N, 15.8799475E"
+    }
+    ,
+    {name: "Galerie Kotelna Říčany",
+        id: 76,
+        obr: "GKRicany.png",
+        url: "http://www.galeriekotelna.cz",
+        coords: "49.9924661N, 14.6676256E"
+    }
+    ,
+    {name: "Galerie Benedikta Rejta Louny",
+        id: 77,
+        obr: "GBRLouny.png",
+        url: "https://www.gbr.cz",
+        coords: "50.3581167N, 13.7959556E"
+    }
+    ,
+    {name: "Galerie Art Praha",
+        id: 78,
+        obr: "GArtPraha.png",
+        url: "https://www.galerie-art-praha.cz",
+        coords: "50.0870133N, 14.4214250E"
+    }
+    ,
+    {name: "Aukční síň a galerie Vltavín",
+        id: 79,
+        obr: "GVltavin.png",
+        url: "http://www.auctions-art.cz",
+        coords: "50.0800781N, 14.4140406E"
+    }
+    ,
+    {name: "Galerie Entrance",
+        id: 80,
+        obr: "GEntrance.png",
+        url: "https://entrancegallery.com/",
+        coords: "50.0628433N, 14.3911533E"
+    }
+    ,
+    {name: "Strahovská obrazárna",
+        id: 81,
+        obr: "StrahovskaObrazarna.png",
+        url: "https://www.strahovskyklaster.cz/expozice-obrazarny",
+        coords: "50.0867081N, 14.3896667E"
+    }
+    ,
+    {name: "Galerie Václava Špály",
+        id: 82,
+        obr: "GVaclavaSpaly.png",
+        url: "",
+        coords: "50.0824853N, 14.4203072E"
+    }
+    ,
+    {name: "Galerie Zdeněk Sklenář",
+        id: 83,
+        obr: "GZdenekSklenar.png",
+        url: "https://www.zdeneksklenar.cz/",
+        coords: "50.0815314N, 14.4178000E"
+    }
+    ,
+    {name: "Galerie KODL",
+        id: 84,
+        obr: "GKodl.png",
+        url: "https://www.galeriekodl.cz",
+        coords: "50.0815736N, 14.4151964E"
+    }
+    ,
+    {name: "Galerie U Betlémské kaple",
+        id: 85,
+        obr: "GBetlemskaKaple.png",
+        url: "https://www.galerieubetlemskekaple.cz",
+        coords: "50.0840339N, 14.4176894E"
+    }
+    ,
+    {name: "GALERIE DOLMEN",
+        id: 86,
+        obr: "GDolmen.png",
+        url: "https://www.galerie-dolmen.cz",
+        coords: "50.0799142N, 14.4152461E"
+    }
+    ,
+    {name: "Galerie kritiků",
+        id: 87,
+        obr: "GKritiku.png",
+        url: "https://www.galeriekritiku.cz/",
+        coords: "50.0824775N, 14.4221297E"
+    }
+    ,
+    {name: "Artinbox galerie",
+        id: 88,
+        obr: "ArtinBox.png",
+        url: "http://www.artinbox.cz/",
+        coords: "50.0834275N, 14.4215278E"
+    }
+    ,
+    {name: "Galerie Rudolfinum",
+        id: 89,
+        obr: "GRudolfinum.png",
+        url: "https://www.galerierudolfinum.cz",
+        coords: "50.0901719N, 14.4152097E"
+    }
+    ,
+    {name: "Adolf Loos Apartment and Gallery",
+        id: 90,
+        obr: "ALooseApartment.png",
+        url: "https://aloos.cz",
+        coords: "50.0901069N, 14.4172564E"
+    }
+    ,
+    {name: "Klášter sv. Anežky České",
+        id: 91,
+        obr: "NGPraha.png",
+        url: "www.ngprague.cz",
+        coords: "50.0919150N, 14.4233828E"
+    }
+    ,
+    {name: "S.V.U. Mánes",
+        id: 92,
+        obr: "Manes.png",
+        url: "http://www.svumanes.cz",
+        coords: "50.0793608N, 14.4197531E"
+    }
+    ,
+    {name: "Museum Kampa",
+        id: 93,
+        obr: "MuseumKampa.png",
+        url: "http://www.museumkampa.cz",
+        coords: "50.0840272N, 14.4086950E"
+    }
+    ,
+    {name: "Centrum současného umění DOX",
+        id: 94,
+        obr: "DOX.png",
+        url: "https://www.dox.cz",
+        coords: "50.1067772N, 14.4470311E"
+    }
+    ,
+    {name: "Klášter sv. Anežky České",
+        id: 95,
+        obr: "NGPraha.png",
+        url: "https://www.ngprague.cz",
+        coords: "50.0919150N, 14.4233828E"
+    }
+    ,
+    {name: "Šternberský palác",
+        id: 96,
+        obr: "NGPraha.png",
+        url: "https://www.ngprague.cz",
+        coords: "50.0905761N, 14.3963269E"
+    }
+    ,
+    {name: "Schwarzenberský palác",
+        id: 97,
+        obr: "NGPraha.png",
+        url: "https://www.ngprague.cz",
+        coords: "50.0892944N, 14.3971461E"
+    }
+    ,
+    {name: "Palác Kinských",
+        id: 98,
+        obr: "NGPraha.png",
+        url: "https://www.ngprague.cz",
+        coords: "50.0878564N, 14.4216203E"
+    }
+    ,
+    {name: "Salmovský palác",
+        id: 99,
+        obr: "NGPraha.png",
+        url: "https://www.ngprague.cz",
+        coords: "50.0891947N, 14.3978261E"
+    }
+    /* 
      ,
      {name: "",
      id: ,
