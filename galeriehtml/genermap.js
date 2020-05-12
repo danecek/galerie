@@ -703,35 +703,35 @@ var markers = [{
         url: "https://www.ngprague.cz",
         coords: "50.0891947N, 14.3978261E"
     }
+    ,
+    {name: "Galerie 890",
+        id: 100,
+        obr: "G890.png",
+        url: "https://galerie890.cz/",
+        coords: "50.1433450N, 15.1207725E"
+    }
+    ,
+    {name: "Městská galerie U Zlatého slunce",
+        id: 101,
+        obr: "MGTyn.png",
+        url: "http://galerietnv.cz",
+        coords: "49.2236939N, 14.4216661E"
+    }
+    ,
+    {name: "Galerie Jana Autengrubera",
+        id: 102,
+        obr: "Autengruber.png",
+        url: "http://www.zamekpacov.cz/cs",
+        coords: "49.4735986N, 15.0027303E"
+    }
+    ,
+    {name: "Trafo Gallery",
+        id: 102,
+        obr: "TrafoGallery.png",
+        url: "https://trafogallery.cz/",
+        coords: "50.0991178N, 14.4459272E"
+    }
     /* 
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
      ,
      {name: "",
      id: ,
