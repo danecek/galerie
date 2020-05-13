@@ -731,16 +731,13 @@ var markers = [{
         url: "https://trafogallery.cz/",
         coords: "50.0991178N, 14.4459272E"
     }
-    /* 
-     ,
-     {name: "",
-     id: ,
-     obr: ".png",
-     url: "",
-     coords: ""
-     }
-     
-     */
+    ,
+    {name: "Topičův salon",
+        id: 103,
+        obr: "TopicuvSalon.png",
+        url: "https://www.topicuvsalon.cz/",
+        coords: "50.0815956N, 14.4155222E"
+    }
 ];
 // vytvoreni markeru
 markers.forEach(function (marker) {
