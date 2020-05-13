@@ -738,6 +738,141 @@ var markers = [{
         url: "https://www.topicuvsalon.cz/",
         coords: "50.0815956N, 14.4155222E"
     }
+    ,
+    {name: "Galerie Kmoch",
+        id: 104,
+        obr: "GKmoch.png",
+        url: "https://galeriekmoch.cz/",
+        coords: "50.0551339N, 14.5231247E"
+    }
+    ,
+    {name: "Galerie VIA ART",
+        id: 105,
+        obr: "GViaArt.png",
+        url: "http://www.galerieviaart.com/",
+        coords: "50.0755425N, 14.4160642E"
+    }
+    ,
+    {name: "GALERIE PICTURA",
+        id: 106,
+        obr: "GPictura.png",
+        url: "https://www.pictura.cz/",
+        coords: "50.0767250N, 14.4167528E"
+    }
+    ,
+    {name: "Jiří Švestka Gallery",
+        id: 107,
+        obr: "JiriSvestka.png",
+        url: "www.jirisvestkagallery",
+        coords: "50.0731544N, 14.4096833E"
+    }
+    ,
+    {name: "Galerie Vyšehrad",
+        id: 108,
+        obr: "GVysehrad.png",
+        url: "http://www.praha-vysehrad.cz/galerie-vysehrad",
+        coords: "50.0635758N, 14.4165458E"
+    }
+    ,
+    {name: "Meet Factory",
+        id: 109,
+        obr: "MeetFactory.png",
+        url: "http://www.meetfactory.cz",
+        coords: "50.0532417N, 14.4082900E"
+    }
+    ,
+    {name: "Arto.to galerie",
+        id: 110,
+        obr: "Artoto.png",
+        url: "http://arto.to/",
+        coords: "50.0640944N, 14.4265347E"
+    }
+    ,
+    {name: "Galerie Pecka",
+        id: 111,
+        obr: "GPecka.png",
+        url: "http://www.galeriepecka.cz",
+        coords: "50.0662650N, 14.4189139E"
+    }
+    ,
+    {name: "Galerie eS",
+        id: 112,
+        obr: "ESGalerie.png",
+        url: "http://esgalerie.cz",
+        coords: "50.0637817N, 14.4422731E"
+    }
+    ,
+    {name: "Agentura ARS VITA",
+        id: 113,
+        obr: "AArsVita.png",
+        url: "http://galerieavprahasweb.webmium.com/",
+        coords: "50.0687333N, 14.4714211E"
+    }
+    /*
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     {name: "",
+     id: 111,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     */
 ];
 // vytvoreni markeru
 markers.forEach(function (marker) {
