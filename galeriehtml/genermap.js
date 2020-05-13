@@ -808,20 +808,20 @@ var markers = [{
         url: "http://galerieavprahasweb.webmium.com/",
         coords: "50.0687333N, 14.4714211E"
     }
+    ,
+    {name: "Dio Art",
+        id: 114,
+        obr: "DioArt.png",
+        url: "https://www.dioart.cz",
+        coords: "49.2172453N, 17.6302222E"
+    }
     /*
      ,
-     {name: "",
+     {name: "Galerie Václava Chada",
      id: 111,
      obr: ".png",
      url: "",
-     coords: ""     
-     }
-     ,
-     {name: "",
-     id: 111,
-     obr: ".png",
-     url: "",
-     coords: ""     
+     coords: "49.2257692N, 17.6631889E"     
      }
      ,
      {name: "",
