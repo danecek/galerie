@@ -490,7 +490,7 @@ var markers = [{
     {name: "Galerie Závodný Mikulov",
         id: 69,
         obr: "GalerieZavodnyMikulov.png",
-        url: "",
+        url: "https://galeriezavodny.com/",
         coords: "48.8082733N, 16.6368408E"
     }
     ,
@@ -815,63 +815,114 @@ var markers = [{
         url: "https://www.dioart.cz",
         coords: "49.2172453N, 17.6302222E"
     }
+    ,
+    {name: "Galerie Indiges",
+        id: 115,
+        obr: "GIndiges.png",
+        url: "https://www.indiges.cz/",
+        coords: "49.1853828N, 16.6661414E"
+    }
+    ,
+    {name: "Galerie Narodni",
+        id: 116,
+        obr: "GNarodni.png",
+        url: "https://www.galerie-narodni.cz/",
+        coords: "49.1881942N, 16.6131744E"
+    }
+    ,
+    {name: "Galerie Narodni",
+        id: 117,
+        obr: "GNarodni.png",
+        url: "https://www.galerie-narodni.cz/",
+        coords: "50.0822342N, 14.4181514E"
+    }
+    ,
+    {name: "Galerie v IBC",
+        id: 118,
+        obr: "GVIBC.png",
+        url: "https://www.galerievibc.cz/",
+        coords: "49.2000694N, 16.6136283E"
+    }
+    ,
+    {name: "Dům umění města Brna",
+        id: 119,
+        obr: "DUMestaBrna.png",
+        url: "http://www.dum-umeni.cz",
+        coords: "49.1963386N, 16.6146411E"
+    }
+    ,
+    {name: "Artikle",
+        id: 120,
+        obr: "Artikle.png",
+        url: "http://artikle.cz",
+        coords: "49.1843033N, 16.6265564E"
+    }
+    ,
+    {name: "ART GALLERY BRNO",
+        id: 121,
+        obr: "ArtGalleryBrno.png",
+        url: "https://www.artgallerybrno.cz/",
+        coords: "49.1992797N, 16.6029719E"
+    }
     /*
      ,
-     {name: "Galerie Václava Chada",
-     id: 111,
-     obr: ".png",
-     url: "",
-     coords: "49.2257692N, 17.6631889E"     
-     }
-     ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
      ,
      {name: "",
-     id: 111,
+     id: 11,
      obr: ".png",
      url: "",
      coords: ""     
      }
+     ,
+     {name: "",
+     id: 11,
+     obr: ".png",
+     url: "",
+     coords: ""     
+     }
+     ,
+     
      */
 ];
 // vytvoreni markeru
