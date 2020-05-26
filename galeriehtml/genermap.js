@@ -864,15 +864,15 @@ var markers = [{
         url: "https://www.artgallerybrno.cz/",
         coords: "49.1992797N, 16.6029719E"
     }
-    /*
      ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
+     {name: "Bold Gallery",
+     id: 122,
+     obr: "BoldGalerry.png",
+     url: "https://www.boldgallery.art",
+     coords: "50.1057219N, 14.4482344E"     
      }
-     ,
+     /*
+    ,
      {name: "",
      id: 11,
      obr: ".png",
