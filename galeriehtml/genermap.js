@@ -143,13 +143,6 @@ var markers = [{
         coords: "49.0519256N, 14.4414100E"
     }
     ,
-    {name: "Galerie U Radnice Tábor",
-        id: 20,
-        obr: "GRTabor.png",
-        url: "http://www.galerietabor.cz",
-        coords: "49.4137231N, 14.6575967E"
-    }
-    ,
     {name: "Galerie Dolní brána Prachatice",
         id: 21,
         obr: "GDBPrachatice.png",
@@ -259,15 +252,7 @@ var markers = [{
         url: "https://www.muzeumcl.cz/galerie.html",
         coords: "50.6859281N, 14.5344986E"
     }
-    /*
-     ,
-     {name: "Městská galerie MY Jablonec nad Nisou",
-     id: 37,
-     obr: ".png",
-     url: "",
-     coords: "50.7229422N, 15.1678514E"
-     }
-     */
+
     ,
     {name: "Oblastní galerie Liberec",
         id: 38,
@@ -725,13 +710,6 @@ var markers = [{
         coords: "49.4735986N, 15.0027303E"
     }
     ,
-    {name: "Trafo Gallery",
-        id: 102,
-        obr: "TrafoGallery.png",
-        url: "https://trafogallery.cz/",
-        coords: "50.0991178N, 14.4459272E"
-    }
-    ,
     {name: "Topičův salon",
         id: 103,
         obr: "TopicuvSalon.png",
@@ -864,21 +842,42 @@ var markers = [{
         url: "https://www.artgallerybrno.cz/",
         coords: "49.1992797N, 16.6029719E"
     }
-     ,
-     {name: "Bold Gallery",
-     id: 122,
-     obr: "BoldGalerry.png",
-     url: "https://www.boldgallery.art",
-     coords: "50.1057219N, 14.4482344E"     
-     }
-     /*
     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
+    {name: "Bold Gallery",
+        id: 122,
+        obr: "BoldGalerry.png",
+        url: "https://www.boldgallery.art",
+        coords: "50.1057219N, 14.4482344E"
+    }
+    ,
+    {name: "Galerie Kooperativy",
+        id: 123,
+        obr: "GKooperativy.png",
+        url: "https://www.koop.cz/pojistovna-kooperativa/galerie-kooperativy",
+        coords: "50.0935403N, 14.4440631E"
+    }
+    ,
+    {name: "Trafo Gallery",
+        id: 124,
+        obr: "TrafoGallery.png",
+        url: "https://trafogallery.cz/",
+        coords: "50.0991178N, 14.4459272E"
+    }
+    ,
+    {name: "Galerie U Radnice Tábor",
+        id: 125,
+        obr: "GRTabor.png",
+        url: "http://www.galerietabor.cz",
+        coords: "49.4137231N, 14.6575967E"
+    }
+    ,
+    {name: "Městská galerie MY Jablonec nad Nisou",
+        id: 126,
+        obr: "MGJablonec.png",
+        url: "http://www.mestojablonec.cz/redakce/index.php?subakce=dbsubjektu&xuser=&lanG=cs&detaildbm=4",
+        coords: "50.7229422N, 15.1678514E"
+    }
+    /*
      ,
      {name: "",
      id: 11,
