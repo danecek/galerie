@@ -877,14 +877,14 @@ var markers = [{
         url: "http://www.mestojablonec.cz/redakce/index.php?subakce=dbsubjektu&xuser=&lanG=cs&detaildbm=4",
         coords: "50.7229422N, 15.1678514E"
     }
+    ,
+    {name: "Pragovka",
+        id: 127,
+        obr: "Pragovka.png",
+        url: "http://www.pragovka.com/",
+        coords: "50.1090394N, 14.5135156E"
+    }
     /*
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
      ,
      {name: "",
      id: 11,
