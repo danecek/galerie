@@ -884,35 +884,34 @@ var markers = [{
         url: "http://www.pragovka.com/",
         coords: "50.1090394N, 14.5135156E"
     }
+    ,
+    {name: "Galerie Aviatik",
+        id: 128,
+        obr: "GAviatik.png",
+        url: "https://www.galerie-aviatik.cz",
+        coords: "49.1174469N, 16.4747697E"
+    }
+    ,
+    {name: "Stříbský mlýn",
+        id: 129,
+        obr: "StribrskyMlyn.png",
+        url: "https://www.facebook.com/stribskymlyn",
+        coords: "49.0926894N, 16.4011917E"
+    }
+    ,
+    {name: "Nová galerie",
+        id: 130,
+        obr: "NovaGalerie.png",
+        url: "https://www.novagalerie.cz",
+        coords: "50.0790328N, 14.4356011E"
+    },
+    {name: "Galerie la Femme",
+        id: 131,
+        obr: "GLaFemme.png",
+        url: "http://www.glf.cz/cz/",
+        coords: "50.0907250N, 14.4189194E"
+    }
     /*
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
      ,
      {name: "",
      id: 11,
