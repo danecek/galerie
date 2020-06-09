@@ -911,14 +911,14 @@ var markers = [{
         url: "http://www.glf.cz/cz/",
         coords: "50.0907250N, 14.4189194E"
     }
+    ,
+    {name: "Galerie plastik",
+        id: 132,
+        obr: "GPlastikHorice.png",
+        url: "https://galerie.horice.org/",
+        coords: "50.3650664N, 15.6422725E"
+    }
     /*
-     ,
-     {name: "",
-     id: 11,
-     obr: ".png",
-     url: "",
-     coords: ""     
-     }
      ,
      
      */
